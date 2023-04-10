@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-btn {
+  align-self: center;
+}
+
+.homepage-header {
+  align-self: left;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 50px;
 }
 
 .App-logo {
