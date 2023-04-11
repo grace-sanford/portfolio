@@ -11,6 +11,13 @@
   align-self: left;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 50px;
+  margin-top: 0rem;
+}
+
+.alert {
+  /* margin:0px auto; */
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .App-logo {

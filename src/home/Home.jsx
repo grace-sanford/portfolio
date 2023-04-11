@@ -1,10 +1,12 @@
 import "../App.css";
 import Button from "react-bootstrap/Button";
-import {Link} from "react-router-dom"
-import React from "react";
-
+import React, { useState } from "react";
+import Nav from "../nav/Nav.jsx";
+import AlertDismissible from "../alertDismissible/AlertDismissible";
 
 function Home() {
+  const [clicked, setClicked] = useState(false);
+
   return (
     <>
       <style type="text/css">
@@ -16,23 +18,45 @@ function Home() {
 }
 
 .btn-xxl {
-  padding: 1rem 1.5rem;
-  font-size: 1.5rem;
+  padding: .4rem .4rem .4rem .4rem;
 }
 `}
       </style>
       <div className="App">
-        <Link to="/*"><Button className = "homepage-btn" variant="flat" size="xxl">
-          <img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9AxhxlZhyxlUC9Uw6MEE97d642ROWXu28Hadm_5t&s"></img>
-        </Button></Link>
-        <h2 className= "homepage-header">Hi, <br />
-          I'm Grace, <br />
-          Full Stack Software Developer, <br />
-          and Poet</h2>
+        <Button
+          className="homepage-btn"
+          variant="flat"
+          size="xxl"
+          onClick={() => setClicked(!clicked)}
+        >
+          <img
+            alt=""
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9AxhxlZhyxlUC9Uw6MEE97d642ROWXu28Hadm_5t&s"
+          ></img>
+        </Button>
+        {!clicked ? (
+          <>
+            <h2 className="homepage-header">
+              <span className="ml-1">
+                Hi, <br /></span>
+                <span className="ml-2">
+                I'm Grace, <br /></span>
+                <span className="ml-3">
+                Full Stack <br /></span>
+                <span className="ml-4">
+                Software Developer, <br /></span>
+                <span className="ml-5">
+                and Poet</span>
+              
+            </h2>
+            <AlertDismissible className="alert"/>
+          </>
+        ) : (
+          <Nav />
+        )}
       </div>
     </>
   );
 }
 
 export default Home;
-
