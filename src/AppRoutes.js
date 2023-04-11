@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import Nav from "./nav/Nav.jsx";
 import React from "react";
+import MyNavDropdown from "./nav/MyNavDropdown.jsx";
 
 const AppRoutes = () => {
   return <>
   <Routes>
-    <Route path="/nav" element={<Nav />}></Route>
+    <Route path="/nav" element={<MyNavDropdown />}></Route>
   </Routes>
   </>;
 };

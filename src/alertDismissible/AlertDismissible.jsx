@@ -8,17 +8,19 @@ function AlertDismissible() {
 
   return (
     <>
-      <style type="text/css">
-        {`
-.btn-showwidth {
-    width: 6rem;
-}
-`}
-      </style>
+      {!show && (
+        <Button
+          variant="success"
+          size="sm"
+          onClick={() => setShow(true)}
+        >
+          Show Alert
+        </Button>
+      )}
       <Alert show={show} key="success" variant="success" bsPrefix="alert">
         <Alert.Heading>Thanks for stopping by!</Alert.Heading>
         <p>
-          Check out some of my recent poems published in Issue 4 of{" "}
+          Check out some of my poems, recently <br />published in Issue 4 of {" "}
           <Alert.Link href="#">Cobra Milk</Alert.Link>.
         </p>
         <div>
@@ -27,15 +29,6 @@ function AlertDismissible() {
           </Button>
         </div>
       </Alert>
-      {!show && (
-        <Button
-          variant="success btn-showwidth"
-          size="sm"
-          onClick={() => setShow(true)}
-        >
-          Show Alert
-        </Button>
-      )}
     </>
   );
 }
