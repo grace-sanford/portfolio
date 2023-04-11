@@ -15,9 +15,10 @@
 }
 
 .alert {
-  /* margin:0px auto; */
+  margin:0px auto;
   /* justify-content: center;
   align-items: center; */
+  position: fixed;
 }
 
 .App-logo {

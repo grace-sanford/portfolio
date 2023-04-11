@@ -18,7 +18,7 @@ function AlertDismissible() {
       <Alert show={show} key="success" variant="success" bsPrefix="alert">
         <Alert.Heading>Thanks for stopping by!</Alert.Heading>
         <p>
-          Check out some of my poems, recently published in Issue 4 of{" "}
+          Check out some of my recent poems published in Issue 4 of{" "}
           <Alert.Link href="#">Cobra Milk</Alert.Link>.
         </p>
         <div>
