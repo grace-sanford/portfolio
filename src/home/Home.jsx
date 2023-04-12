@@ -3,9 +3,9 @@ import Button from "react-bootstrap/Button";
 import React from "react";
 import AlertDismissible from "../alertDismissible/AlertDismissible";
 import MyNavDropdown from "../nav/MyNavDropdown";
+import { Link } from "react-router-dom";
 
-function Home({clicked, setClicked}) {
-
+function Home({ clicked, setClicked }) {
   return (
     <>
       <style type="text/css">
@@ -40,7 +40,8 @@ function Home({clicked, setClicked}) {
                 Hi, <br />
               </span>
               <span className="ml-1">
-                I'm Grace, <br />
+                I'm Grace,
+                <br />
               </span>
               <span className="ml-2">
                 Full Stack <br />
