@@ -9,7 +9,7 @@ function AlertDismissible() {
   return (
     <>
       {!show && (
-        <Button
+        <Button className="text"
           variant="success"
           size="sm"
           onClick={() => setShow(true)}
