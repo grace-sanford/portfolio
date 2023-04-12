@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className="App">
       <div className="text">
         <p>
-          <b>Grace Sanford</b> brings analytic, inclusive, and creative thinking
+          Grace Sanford brings analytic, inclusive, and creative thinking
           to software development. Grace recieved her training in the Grace
           Hopper web development immersive program, where she spent over 553
           hours on full stack JavaScript development, including{" "}
