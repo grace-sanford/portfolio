@@ -9,6 +9,8 @@ import { GiClothespin } from "react-icons/gi";
 
 const Links = () => {
   return (
+    <div className="text">
+    <p>The links below point to external resources. Materials not linked here can be found on <a href="https://github.com/grace-sanford">GitHub</a>.</p>
     <ListGroup>
       <ListGroup.Item
         variant="primary"
@@ -43,7 +45,7 @@ const Links = () => {
         target="_blank"
       >
         <RiPaintFill />
-        Gallery House - Fullstack gallery wall app
+        Gallery House - Fullstack gallery wall app - Video Walk-Through
       </ListGroup.Item>
       <ListGroup.Item
         action
@@ -52,9 +54,10 @@ const Links = () => {
         target="_blank"
       >
         <GiClothespin />
-        Git-clothes - Fullstack e-commerce website
+        Git-clothes - Fullstack e-commerce website - Deployed Site
       </ListGroup.Item>
     </ListGroup>
+    </div>
   );
 };
 

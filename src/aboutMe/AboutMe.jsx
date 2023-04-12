@@ -4,10 +4,10 @@ const AboutMe = () => {
   return (
     <div className="text">
       <p>
-        Hi! I'm Grace (she/her/hers). I bring analytic, inclusive, and creative
-        thinking to software development. I recieved my training in the Grace
-        Hopper web development immersive program, where I spent over 553 hours
-        on full stack JavaScript development, including{" "}
+        <b>Grace Sanford</b> brings analytic, inclusive, and creative thinking to
+        software development. Grace recieved her training in the Grace Hopper
+        web development immersive program, where she spent over 553 hours on
+        full stack JavaScript development, including{" "}
         <span className="green">React</span> and{" "}
         <span className="green">Redux</span>,{" "}
         <span className="green">Node</span>,{" "}
@@ -16,16 +16,18 @@ const AboutMe = () => {
         <span className="blue">Postgres</span> databases.
       </p>
       <p>
-        Professionally, I am interested in creating{" "}
-        <span className="pink">sustainable</span> and{" "}
-        <span className="pink">financially optimal solutions</span>, by building{" "}
-        <span className="pink">technology that helps people</span>. My
-        experience is in fast-paced, client-facing roles, as a Marketing
-        Strategist for a gut-health podcast, as an Assistant Publicist for
-        business and non-fiction authors, and most recently as a reservationist
-        for an upscale bar and restaurant. I hold a B.A. in Sociology, with a
-        cerficate in Social, Cultural, and Critical Theory from Wesleyan
-        University. I live in New York City.
+        Professionally, Grace is interested in creating{" "}
+        <span className="pink">sustainable</span>,
+        <span className="pink">performant</span>, and{" "}
+        <span className="pink">financially optimal</span> solutions, by building{" "}
+        <span className="pink">technology that helps people</span>. Grace has
+        experience in fast-paced, client-facing roles, as a Marketing Strategist
+        for a gut-health podcast, an Assistant Publicist for business and
+        non-fiction authors, and most recently a reservationist for an
+        upscale bar and restaurant, where she designed and implemented a single
+        system for tracking 1000+ clients accross 3 platforms and 4 businesses.
+        Grace holds a B.A. in Sociology, with a cerficate in Social, Cultural,
+        and Critical Theory from Wesleyan University. Grace lives in New York City.
       </p>
     </div>
   );
