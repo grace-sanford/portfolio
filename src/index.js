@@ -5,14 +5,17 @@ import App from "./App";
 import AppRoutes from "./AppRoutes";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
+import { ThemeProvider } from "react-bootstrap";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <App />
-      <AppRoutes />
-    </HashRouter>
+    <ThemeProvider>
+      <HashRouter>
+        <App />
+        <AppRoutes />
+      </HashRouter>
+    </ThemeProvider>
   </React.StrictMode>
 );
 

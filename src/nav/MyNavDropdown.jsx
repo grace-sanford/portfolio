@@ -6,7 +6,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const MyNavDropdown = () => {
   return (
-    <Nav className="nav flex-column" variant="pills" activeKey="1.3">
+    <Nav className="nav flex-column" variant="pills" activeKey={null}>
       <NavDropdown title="Software Projects" id="nav-dropdown">
         {/**Gallery House */}
         <LinkContainer to="/galleryhouse">
