@@ -13,16 +13,16 @@
   font-size: 50px;
   margin-top: 4rem;
 }
-.hi {
+.hi, .plum {
   background-color: plum;
 }
-.ml-1 {
+.ml-1, .mediumaquamarine {
   background-color: mediumaquamarine;
 }
 
 .ml-2,
 .ml-3,
-.ml-4 {
+.ml-4, .aqua {
   background-color: aqua;
 }
 
