@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import AppRoutes from "./AppRoutes";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
 import { ThemeProvider } from "react-bootstrap";
@@ -13,7 +12,6 @@ root.render(
     <ThemeProvider>
       <HashRouter>
         <App />
-        <AppRoutes />
       </HashRouter>
     </ThemeProvider>
   </React.StrictMode>

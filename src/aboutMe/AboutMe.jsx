@@ -13,7 +13,7 @@ const AboutMe = () => {
           <span className="green">Redux</span>,{" "}
           <span className="green">Node</span>,{" "}
           <span className="blue">Express</span>, and{" "}
-          <span className="blue">Sequlize</span> object relational mapping for{" "}
+          <span className="blue">Sequelize</span> object relational mapping for{" "}
           <span className="blue">Postgres</span> databases.
         </p>
         <p>
