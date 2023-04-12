@@ -5,7 +5,6 @@ import Links from "./links/Links.jsx";
 import ContactForm from "./contactForm/ContactForm.jsx";
 import GalleryHouse from "./galleryHouse/GalleryHouse.jsx";
 import GitClothes from "./gitClothes/GitClothes.jsx";
-import Home from "./home/Home.jsx"
 
 const AppRoutes = ({ clicked }) => {
   return (
