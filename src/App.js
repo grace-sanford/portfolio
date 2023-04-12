@@ -1,13 +1,15 @@
 import "./App.css";
-import React from "react";
-// import AppRoutes from "./AppRoutes";
+import React, {useState} from "react";
 import Home from "./home/Home.jsx";
+import AppRoutes from "./AppRoutes";
+
 
 function App() {
+  const [clicked, setClicked] = useState(false);
   return (
     <>
-      <Home />
-      {/* <AppRoutes /> */}
+      <Home clicked={clicked} setClicked={setClicked}/>
+      <AppRoutes clicked={clicked}/>
     </>
   );
 }

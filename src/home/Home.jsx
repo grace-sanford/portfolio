@@ -1,11 +1,10 @@
 import "../App.css";
 import Button from "react-bootstrap/Button";
-import React, { useState } from "react";
+import React from "react";
 import AlertDismissible from "../alertDismissible/AlertDismissible";
 import MyNavDropdown from "../nav/MyNavDropdown";
 
-function Home() {
-  const [clicked, setClicked] = useState(false);
+function Home({clicked, setClicked}) {
 
   return (
     <>
