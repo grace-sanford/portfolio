@@ -1,11 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import React from "react";
-import MyNavDropdown from "./nav/MyNavDropdown.jsx";
+import AboutMe from "./aboutMe/AboutMe.jsx"
+import Links from "./links/Links.jsx"
 
 const AppRoutes = () => {
   return <>
   <Routes>
-    <Route path="/nav" element={<MyNavDropdown />}></Route>
+    <Route path="/*" element={null} />
+    <Route path="/about" element={<AboutMe />}></Route>
+    <Route path="/links" element={<Links />}></Route>
   </Routes>
   </>;
 };

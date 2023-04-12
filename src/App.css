@@ -31,7 +31,24 @@
 }
 
 .nav {
+  margin-top: 3rem;
   align-self: center;
+}
+.text {
+  align-self: center;
+  margin: 2.25rem 2rem 2rem 2rem;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.green {
+  background-color: greenyellow;
 }
 
 .alert {
