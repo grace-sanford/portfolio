@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="text">
       <p>
-        <b>Grace Sanford</b> aims to bring analytic, inclusive, and creative
+        Grace Sanford aims to bring analytic, inclusive, and creative
         thinking to software development. Grace recieved her training in the
         Grace Hopper web development immersive program, where she invested over
         553 hours on full stack JavaScript development, including{" "}
@@ -17,9 +17,9 @@ const AboutMe = () => {
       </p>
       <p>
         Professionally, Grace is interested in creating{" "}
-        <span className="magenta">sustainable</span> and{" "}
-        <span className="magenta">financially optimal solutions</span>, by
-        building <span className="magenta">technology that helps people</span>.
+        <span className="pink">sustainable</span> and{" "}
+        <span className="pink">financially optimal solutions</span>, by
+        building <span className="pink">technology that helps people</span>.
         Her experience is in fast-paced, client-facing roles, as a Marketing
         Strategist for a gut-health podcast, as an Assistant Publicist for
         business and non-fiction authors, and most recently as a reservationist

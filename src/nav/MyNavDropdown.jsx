@@ -6,19 +6,34 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const MyNavDropdown = () => {
   return (
-    <Nav className="nav flex-column" variant="pills" activeKey="1">
+    <Nav className="nav flex-column" variant="pills" activeKey="1.3">
       <NavDropdown title="Software Projects" id="nav-dropdown">
-        <NavDropdown.Item eventKey="1.1">
-          <LinkContainer to="/galleryhouse">
-            <Nav.Link eventKey="1.1" title="Item">
-              Gallery House
-            </Nav.Link>
-          </LinkContainer>
-        </NavDropdown.Item>
-        <NavDropdown.Item eventKey="1.2">Git-clothes</NavDropdown.Item>
+        {/**Gallery House */}
+        <LinkContainer to="/galleryhouse">
+          <NavDropdown.Item eventKey="1.1" title="Item">
+            Gallery House
+          </NavDropdown.Item>
+        </LinkContainer>
+
+        {/**Git-clothes */}
+        <LinkContainer to="/gitclothes">
+          <NavDropdown.Item eventKey="1.2" title="Item">
+            Git-clothes
+          </NavDropdown.Item>
+        </LinkContainer>
         <NavDropdown.Divider />
-        <NavDropdown.Item eventKey="1.4">My GitHub</NavDropdown.Item>
+
+        {/**My GitHub */}
+        <NavDropdown.Item
+          eventKey="1.3"
+          // onClick={() => alert(`Redirecting you to GitHub. Okay?`)}
+          href="https://github.com/grace-sanford"
+          target="_blank"
+        >
+          My GitHub
+        </NavDropdown.Item>
       </NavDropdown>
+
       <Nav.Item>
         {/**About */}
         <LinkContainer to="/about">
@@ -35,8 +50,11 @@ const MyNavDropdown = () => {
         </LinkContainer>
       </Nav.Item>
 
+      {/**Contact me */}
       <Nav.Item>
-        <Nav.Link eventKey="4">Get in touch</Nav.Link>
+        <LinkContainer to="/contact">
+          <Nav.Link eventKey="4">Get in touch</Nav.Link>
+        </LinkContainer>
       </Nav.Item>
     </Nav>
   );
