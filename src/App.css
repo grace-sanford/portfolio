@@ -13,31 +13,42 @@
   font-size: 50px;
   margin-top: 4rem;
 }
-.hi, .plum {
+.hi,
+.plum {
   background-color: plum;
 }
-.ml-1, .mediumaquamarine {
+.ml-1,
+.mediumaquamarine {
   background-color: mediumaquamarine;
 }
 
 .ml-2,
 .ml-3,
-.ml-4, .aqua {
+.ml-4,
+.aqua {
   background-color: aqua;
 }
 
-.ml-2k, .pink {
+.ml-2k,
+.pink {
   background-color: pink;
 }
 
 .nav {
+  flex-direction: flex-column;
   margin-top: 3rem;
   align-self: center;
 }
+
+#nav-dropdown, #nav-dropdown-item, #nav-item {
+  font-size: 1.5rem;
+}
+
 .text {
   align-self: center;
   margin: 2.25rem 2rem 2rem 2rem;
   max-width: 35rem;
+  font-size: 1.5rem;
 }
 
 .magenta {
