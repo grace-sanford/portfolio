@@ -7,7 +7,7 @@ const ContactForm = () => {
       <div className="text">
         Feel free to send me an{" "}
         <a href="mailto:gracesanford@protonmail.com">email</a> with job
-        opportunties or interested in collaboration.
+        opportunties or interest in collaboration.
       </div>
     </div>
   );
