@@ -18,9 +18,9 @@ const AboutMe = () => {
         </p>
         <p>
           Professionally, Grace is interested in creating{" "}
-          <span className="pink">sustainable</span>,
+          <span className="pink">accessible</span>,
           <span className="pink">performant</span>, and{" "}
-          <span className="pink">financially optimal</span> solutions, by
+          <span className="pink">financially optimal</span> solutions by
           building <span className="pink">technology that helps people</span>.
           Grace has experience in fast-paced, client-facing roles, as a
           Marketing Strategist for a gut-health podcast, an Assistant Publicist

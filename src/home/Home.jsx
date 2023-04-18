@@ -28,7 +28,7 @@ function Home({ clicked, setClicked }) {
               </span>
               <span className="ml-2k">and Poet</span>
             </h2>
-            <AlertDismissible className="alert" />
+            {/* <AlertDismissible className="alert" /> */}
           </>
         ) : (
           <MyNavDropdown />
