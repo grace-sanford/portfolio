@@ -1,6 +1,5 @@
 import "../App.css";
 import React from "react";
-import AlertDismissible from "../alertDismissible/AlertDismissible";
 import MyNavDropdown from "../nav/MyNavDropdown";
 
 function Home({ clicked, setClicked }) {
