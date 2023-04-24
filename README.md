@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is my portfolio site designed in Figma and developed with React and React-Bootstrap. 
+This is my portfolio site, designed in Figma and developed with React and React-Bootstrap. 
 
 ## Available Scripts
 

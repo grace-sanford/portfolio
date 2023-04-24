@@ -1,6 +1,5 @@
 import "./App.css";
 import React, { useState } from "react";
-// import Home from "./home/Home.jsx";
 import AppRoutes from "./AppRoutes";
 import NavButton from "./navButton/NavButton";
 
