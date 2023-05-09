@@ -40,20 +40,41 @@
 }
 
 .gallery-house-img {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
   padding: 1rem;
-  align-self: center;
+  margin-top: 3rem;
   max-width: 35rem;
+  width: 375px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .git-clothes-img {
   margin-top: 0;
-  align-self: center;
-  max-width: 35rem;
+  width: 375px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#nav-dropdown, #nav-dropdown-item, #nav-item {
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.vid {
+  position: absolute;
+  top: 0;
+  left: 100;
+  width: 100%;
+  height: 100%;
+}
+
+#nav-dropdown,
+#nav-dropdown-item,
+#nav-item {
   font-size: 1.5rem;
 }
 
@@ -81,12 +102,11 @@
 }
 
 .alert {
-  /* margin:0px auto; */
   margin-top: 4rem;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  align-self: center;
+  width: 375px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-logo {

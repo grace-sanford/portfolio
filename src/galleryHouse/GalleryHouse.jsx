@@ -4,12 +4,13 @@ import AlertDismissible from "../alertDismissible/AlertDismissible";
 const GalleryHouse = () => {
   return (
     <div className="App">
+      <img className="gallery-house-img" src="./gallery-house.png" alt=""></img>
       <picture>
         <source media="(max-width: 799px)" srcset="gallery-house-img-sm.jpg" />
         <source media="(min-width: 800px)" srcset="gallery-house-img-bg.jpg" />
         <img src="./gallery-house.png" alt="" />
       </picture>
-      <img className="gallery-house-img" src="./gallery-house.png" alt=""></img>
+
       <div className="text">
         <p>
           Gallery House is{" "}
@@ -52,15 +53,18 @@ const GalleryHouse = () => {
           </a>{" "}
           and below .
         </p>
-
+      </div>
+      <div className="videoWrapper">
         <iframe
+          className="vid"
           src="https://www.youtube.com/embed/B_2WXO_AKPU"
           title="Embedded youtube"
-          width={600}
-          height={300}
+          width="375px"
+          height="300px"
+          allowfullscreen
         ></iframe>
-        <AlertDismissible className="alert" />
       </div>
+      <AlertDismissible className="alert" />
     </div>
   );
 };
