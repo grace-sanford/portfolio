@@ -1,4 +1,5 @@
 import React from "react";
+import AlertDismissible from "../alertDismissible/AlertDismissible";
 
 const GalleryHouse = () => {
   return (
@@ -34,6 +35,7 @@ const GalleryHouse = () => {
           </a>
           .
         </p>
+        <AlertDismissible className="alert" />
       </div>
     </div>
   );

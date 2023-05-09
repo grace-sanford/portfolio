@@ -9,7 +9,8 @@ function AlertDismissible() {
   return (
     <>
       {!show && (
-        <Button className="text"
+        <Button
+          className="text"
           variant="success"
           size="sm"
           onClick={() => setShow(true)}
@@ -18,10 +19,21 @@ function AlertDismissible() {
         </Button>
       )}
       <Alert show={show} key="success" variant="success" bsPrefix="alert">
-        <Alert.Heading>Thanks for stopping by!</Alert.Heading>
         <p>
-          Check out some of my poems, recently <br />published in Issue 4 of {" "}
-          <Alert.Link href="#">Cobra Milk</Alert.Link>.
+          Check out my article documenting my team's process to select and use a
+          third-party API,{" "}
+          <b>
+            "
+            <Alert.Link
+              href="https://medium.com/@gracesanford/implementing-etsy-open-api-v3-in-a-web-application-66cd61b2c4cb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Implementing Etsy Open API v3 in a Web Application
+            </Alert.Link>
+            ,"
+          </b>{" "}
+          recently published on Medium.
         </p>
         <div>
           <Button variant="success" size="sm" onClick={() => setShow(false)}>
