@@ -4,6 +4,7 @@ import AlertDismissible from "../alertDismissible/AlertDismissible";
 const GalleryHouse = () => {
   return (
     <div className="App">
+      <img className="img" src="./gallery-house.png" alt=""></img>
       <div className="text">
         <p>
           Gallery House is{" "}

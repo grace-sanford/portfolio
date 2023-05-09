@@ -35,9 +35,15 @@
 }
 
 .nav {
-  /* flex-direction: flex-column; */
   margin-top: 3rem;
   align-self: center;
+}
+
+.img {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  align-self: center;
+  width: 35rem;
 }
 
 #nav-dropdown, #nav-dropdown-item, #nav-item {
