@@ -35,7 +35,7 @@
 }
 
 .nav {
-  flex-direction: flex-column;
+  /* flex-direction: flex-column; */
   margin-top: 3rem;
   align-self: center;
 }
