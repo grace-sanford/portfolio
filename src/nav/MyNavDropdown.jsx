@@ -22,7 +22,7 @@ const MyNavDropdown = () => {
                 Gallery House
               </NavDropdown.Item>
             </LinkContainer>
-
+  
             {/**Git-clothes */}
             <LinkContainer to="/gitclothes">
               <NavDropdown.Item
@@ -33,10 +33,9 @@ const MyNavDropdown = () => {
                 Git-clothes
               </NavDropdown.Item>
             </LinkContainer>
-            <NavDropdown.Divider />
 
             {/**My GitHub */}
-            <NavDropdown.Item
+            {/* <NavDropdown.Item
               eventKey="1.3"
               // onClick={() => alert(`Redirecting you to GitHub. Okay?`)}
               href="https://github.com/grace-sanford"
@@ -44,7 +43,7 @@ const MyNavDropdown = () => {
               id="nav-dropdown-item"
             >
               My GitHub
-            </NavDropdown.Item>
+            </NavDropdown.Item> */}
           </NavDropdown>
 
           <Nav.Item>
@@ -56,19 +55,10 @@ const MyNavDropdown = () => {
             </LinkContainer>
           </Nav.Item>
 
-          {/**Links */}
+          {/**Contact me */}
           <Nav.Item>
             <LinkContainer to="/links">
               <Nav.Link eventKey="3" id="nav-item">
-                Links
-              </Nav.Link>
-            </LinkContainer>
-          </Nav.Item>
-
-          {/**Contact me */}
-          <Nav.Item>
-            <LinkContainer to="/contact">
-              <Nav.Link eventKey="4" id="nav-item">
                 Get in touch
               </Nav.Link>
             </LinkContainer>

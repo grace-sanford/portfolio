@@ -4,24 +4,20 @@ import ListGroup from "react-bootstrap/ListGroup";
 import { FaLinkedin } from "react-icons/fa";
 import { GrDocumentDownload } from "react-icons/gr";
 import { AiFillGithub } from "react-icons/ai";
-import { RiPaintFill } from "react-icons/ri";
-import { GiClothespin } from "react-icons/gi";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Links = () => {
   return (
     <div className="App">
       <div className="text">
         <p>
-          The links below point to external resources. Materials not linked here
-          can be found on{" "}
-          <a
-            href="https://github.com/grace-sanford"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-          .
+          Feel free to send me an <span className="pink">email</span> with job
+          opportunties or interest in collaboration. 
+          </p>
+          <p>
+          The links below point to
+          external resources. Materials not linked here can be found on{" "}
+          <span className="blue">GitHub</span>.
         </p>
         <ListGroup>
           <ListGroup.Item
@@ -53,20 +49,11 @@ const Links = () => {
           <ListGroup.Item
             action
             variant="info"
-            href="https://www.youtube.com/watch?v=B_2WXO_AKPU&list=PLx0iOsdUOUmm3RLOnoRpUArwuuVa5_u9r&index=4"
+            href="mailto:gracesanford@protonmail.com"
             target="_blank"
           >
-            <RiPaintFill />
-            Gallery House - Fullstack gallery wall app - Video Walk-Through
-          </ListGroup.Item>
-          <ListGroup.Item
-            action
-            variant="light"
-            href="https://git-clothes.onrender.com/"
-            target="_blank"
-          >
-            <GiClothespin />
-            Git-clothes - Fullstack e-commerce website - Deployed Site
+            <AiOutlineMail />
+            Email
           </ListGroup.Item>
         </ListGroup>
       </div>
