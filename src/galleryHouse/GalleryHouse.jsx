@@ -41,6 +41,24 @@ const GalleryHouse = () => {
           </a>
           .
         </p>
+        <p>
+          A <span className="yellow">video walk-through</span> of our
+          application can be found on{" "}
+          <a
+            href="https://www.youtube.com/watch?v=B_2WXO_AKPU&list=PLx0iOsdUOUmm3RLOnoRpUArwuuVa5_u9r&index=4
+"
+          >
+            Youtube
+          </a>{" "}
+          and below .
+        </p>
+
+        <iframe
+          src="https://www.youtube.com/embed/B_2WXO_AKPU"
+          title="Embedded youtube"
+          width={600}
+          height={300}
+        ></iframe>
         <AlertDismissible className="alert" />
       </div>
     </div>

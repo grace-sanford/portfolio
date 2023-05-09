@@ -53,12 +53,6 @@
   max-width: 35rem;
 }
 
-@media only screen and (max-width: 480px) {
-  img {
-    width: 100%;
-  }
-}
-
 #nav-dropdown, #nav-dropdown-item, #nav-item {
   font-size: 1.5rem;
 }
@@ -80,6 +74,10 @@
 
 .green {
   background-color: greenyellow;
+}
+
+.yellow {
+  background-color: rgb(255, 221, 0);
 }
 
 .alert {
