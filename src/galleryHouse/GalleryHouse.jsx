@@ -4,7 +4,12 @@ import AlertDismissible from "../alertDismissible/AlertDismissible";
 const GalleryHouse = () => {
   return (
     <div className="App">
-      <img className="img" src="./gallery-house.png" alt=""></img>
+      <picture>
+        <source media="(max-width: 799px)" srcset="gallery-house-img-sm.jpg" />
+        <source media="(min-width: 800px)" srcset="gallery-house-img-bg.jpg" />
+        <img src="./gallery-house.png" alt="" />
+      </picture>
+      <img className="gallery-house-img" src="./gallery-house.png" alt=""></img>
       <div className="text">
         <p>
           Gallery House is{" "}

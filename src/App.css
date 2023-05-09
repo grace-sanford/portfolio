@@ -39,11 +39,23 @@
   align-self: center;
 }
 
-.img {
+.gallery-house-img {
   margin-top: 3rem;
   margin-bottom: 2rem;
   align-self: center;
-  width: 35rem;
+  max-width: 35rem;
+}
+
+.git-clothes-img {
+  margin-top: 0;
+  align-self: center;
+  max-width: 35rem;
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
 }
 
 #nav-dropdown, #nav-dropdown-item, #nav-item {

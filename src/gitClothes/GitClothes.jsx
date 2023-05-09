@@ -7,7 +7,7 @@ const GitClothes = () => {
         <p>
           Git-clothes is{" "}
           <span className="mediumaquamarine">
-            a full stack e-commerce application
+            a full stack mock e-commerce application
           </span>
           .
         </p>
@@ -34,6 +34,17 @@ const GitClothes = () => {
           .
         </p>
       </div>
+      {/**Responsive images with `picture` element. Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images */}
+      <picture>
+        <source media="(max-width: 799px)" srcset="git-clothes-sm.jpg" />
+        <source media="(min-width: 800px)" srcset="git-clothes-bg.jpg" />
+        <img src="./git-clothes-screenshot.jpg" alt="" />
+      </picture>
+      <img
+        className="git-clothes-img"
+        src="./git-clothes-screenshot.jpg"
+        alt=""
+      ></img>
     </div>
   );
 };
