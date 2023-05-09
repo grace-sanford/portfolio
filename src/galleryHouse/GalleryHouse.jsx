@@ -51,7 +51,7 @@ const GalleryHouse = () => {
           >
             Youtube
           </a>{" "}
-          and below .
+          and below.
         </p>
       </div>
       <div className="videoWrapper">
