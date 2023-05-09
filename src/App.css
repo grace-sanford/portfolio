@@ -42,6 +42,7 @@
 .gallery-house-img {
   margin-top: 3rem;
   margin-bottom: 2rem;
+  padding: 1rem;
   align-self: center;
   max-width: 35rem;
 }
