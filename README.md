@@ -1,6 +1,6 @@
-# My Developer Portfolio
+# My Portfolio
 
-Welcome to my portfolio, developed with [React](https://react.dev/) and [React Bootstrap](https://react-bootstrap.github.io/)!
+Welcome to my portfolio, developed with [React](https://react.dev/) and [React Bootstrap](https://react-bootstrap.github.io/)
 
 <br>
 
@@ -8,8 +8,8 @@ Welcome to my portfolio, developed with [React](https://react.dev/) and [React B
 
 <br>
 
-Deployed on [GitHub Pages](https://grace-sanford.github.io/portfolio/)
+This site is deployed on [GitHub Pages](https://grace-sanford.github.io/portfolio/)
 
 <br>
 
-Find me on [LinkedIn](https://www.linkedin.com/in/grace-m-sanford/) 
+Connect with me on [LinkedIn](https://www.linkedin.com/in/grace-m-sanford/) 
