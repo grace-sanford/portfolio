@@ -20,7 +20,7 @@ const GalleryHouse = () => {
           that makes curating the art on your wall not just easy, but fun!
         </p>
         <p>
-          Our <span className="green">project repository</span>, including
+          Our <span className="yellowgreen">project repository</span>, including
           development assests can be found on{" "}
           <a
             href="https://github.com/gamk-capstone/gallery-house"
@@ -32,7 +32,8 @@ const GalleryHouse = () => {
           .
         </p>
         <p>
-          Our latest <span className="plum">deployed site</span> can be found{" "}
+          Our latest <span className="lightpurple">deployed site</span> can be
+          found{" "}
           <a
             href="https://gallery-house.onrender.com"
             target="_blank"
@@ -43,8 +44,8 @@ const GalleryHouse = () => {
           .
         </p>
         <p>
-          A <span className="yellow">video walk-through</span> of our
-          application can be found on{" "}
+          A <span className="gold">video walk-through</span> of our application
+          can be found on{" "}
           <a
             href="https://www.youtube.com/watch?v=B_2WXO_AKPU&list=PLx0iOsdUOUmm3RLOnoRpUArwuuVa5_u9r&index=4
 "
