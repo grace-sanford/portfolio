@@ -17,7 +17,7 @@ const Links = () => {
           <p>
           The links below point to
           external resources. Materials not linked here can be found on{" "}
-          <span className="blue">GitHub</span>.
+          <span className="lightblue">GitHub</span>.
         </p>
         <ListGroup>
           <ListGroup.Item

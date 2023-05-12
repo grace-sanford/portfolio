@@ -13,26 +13,37 @@
   font-size: 50px;
   margin-top: 4rem;
 }
-.hi,
-.plum {
-  background-color: plum;
-}
-.ml-1,
-.mediumaquamarine {
-  background-color: mediumaquamarine;
+
+
+/* ---------------------------Colors---------------------------- */
+.lightpurple {
+  background-color: #d290d2;
 }
 
-.ml-2,
-.ml-3,
-.ml-4,
-.aqua {
-  background-color: aqua;
+.turquoise {
+  background-color: #66cdaa;
 }
 
-.ml-2k,
+.cyan {
+  background-color: #00ffff;
+}
+
 .pink {
-  background-color: pink;
+  background-color: #ffc0cb;
 }
+
+.lightblue {
+  background-color: #add8e6;
+}
+
+.yellowgreen {
+  background-color: #adff2f;
+}
+
+.gold {
+  background-color: #ffdd00;
+}
+/* ---------------------------end Colors---------------------------- */
 
 .nav {
   margin-top: 3rem;
@@ -61,13 +72,14 @@
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
+  padding-right: 0;
   height: 0;
 }
 
 .vid {
   position: absolute;
   top: 0;
-  left: 100;
+  left: 0;
   width: 100%;
   height: 100%;
 }
@@ -85,22 +97,6 @@
   font-size: 1.5rem;
 }
 
-.magenta {
-  background-color: magenta;
-}
-
-.blue {
-  background-color: lightblue;
-}
-
-.green {
-  background-color: greenyellow;
-}
-
-.yellow {
-  background-color: rgb(255, 221, 0);
-}
-
 .alert {
   margin-top: 4rem;
   width: 375px;
@@ -112,12 +108,6 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -133,13 +123,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

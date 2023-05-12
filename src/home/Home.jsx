@@ -9,23 +9,23 @@ function Home({ clicked, setClicked }) {
         {!clicked ? (
           <>
             <h2 className="homepage-header">
-              <span className="hi">
+              <span className="lightpurple">
                 Hi, <br />
               </span>
-              <span className="ml-1">
+              <span className="turquoise">
                 I'm Grace,
                 <br />
               </span>
-              <span className="ml-2">
+              <span className="cyan">
                 Full Stack <br />
               </span>
-              <span className="ml-3">
+              <span className="cyan">
                 Software <br />
               </span>
-              <span className="ml-4">
+              <span className="cyan">
                 Developer, <br />
               </span>
-              <span className="ml-2k">and Poet</span>
+              <span className="pink">and Poet</span>
             </h2>
           </>
         ) : (

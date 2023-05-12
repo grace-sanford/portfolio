@@ -6,13 +6,13 @@ const GitClothes = () => {
       <div className="text">
         <p>
           Git-clothes is{" "}
-          <span className="mediumaquamarine">
+          <span className="turquoise">
             a full stack mock e-commerce application
           </span>
           .
         </p>
         <p>
-          Our <span className="blue">project repository</span> can be found on{" "}
+          Our <span className="lightblue">project repository</span> can be found on{" "}
           <a
             href="https://github.com/GraceShopper-J-E-G-M/Git-Clothes"
             target="_blank"
@@ -23,7 +23,7 @@ const GitClothes = () => {
           .
         </p>
         <p>
-          Our latest <span className="aqua">deployed site</span> can be found{" "}
+          Our latest <span className="cyan">deployed site</span> can be found{" "}
           <a
             href="https://git-clothes.onrender.com"
             target="_blank"

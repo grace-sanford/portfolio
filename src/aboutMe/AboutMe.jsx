@@ -9,12 +9,12 @@ const AboutMe = () => {
           to software development. Grace recieved her training in the Grace
           Hopper web development immersive program, where she spent over 553
           hours on full stack JavaScript development, including{" "}
-          <span className="green">React</span> and{" "}
-          <span className="green">Redux</span>,{" "}
-          <span className="green">Node</span>,{" "}
-          <span className="blue">Express</span>, and{" "}
-          <span className="blue">Sequelize</span> object relational mapping for{" "}
-          <span className="blue">Postgres</span> databases.
+          <span className="yellowgreen">React</span> and{" "}
+          <span className="yellowgreen">Redux</span>,{" "}
+          <span className="yellowgreen">Node</span>,{" "}
+          <span className="lightblue">Express</span>, and{" "}
+          <span className="lightblue">Sequelize</span> object relational mapping for{" "}
+          <span className="lightblue">Postgres</span> databases.
         </p>
         <p>
           Professionally, Grace is interested in creating{" "}
