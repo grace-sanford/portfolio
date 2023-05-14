@@ -92,8 +92,8 @@
 
 .text {
   align-self: center;
-  margin: 2.25rem 2rem 2rem 2rem;
-  max-width: 35rem;
+  /* margin: 2.25rem 2rem 2rem 2rem;
+  max-width: 35rem; */
   font-size: 1.5rem;
 }
 
