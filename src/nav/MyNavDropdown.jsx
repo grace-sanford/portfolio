@@ -7,7 +7,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import GalleryHouse from "../galleryHouse/GalleryHouse";
 import GitClothes from "../gitClothes/GitClothes";
 import AboutMe from "../aboutMe/AboutMe";
-import Links from "../links/Links"
+import Links from "../links/Links";
 
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -25,32 +25,33 @@ const MyNavDropdown = () => {
             <Nav className="nav" fill variant="pills" activeKey={null}>
               <NavDropdown title="Software Projects" id="nav-dropdown">
                 {/**Gallery House */}
-                <LinkContainer to="/galleryhouse">
-                  <NavDropdown.Item
-                    style={{ width: "5rem" }}
-                    eventKey="1.1"
-                    title="Item"
-                    id="nav-dropdown-item"
-                  >
-                    Gallery House
-                  </NavDropdown.Item>
-                </LinkContainer>
+                <NavDropdown.Item
+                  style={{ width: "5rem" }}
+                  eventKey="1.1"
+                  title="Item"
+                  id="nav-dropdown-item"
+                  activeClassName="active-link"
+                  as={NavHashLink}
+                  className="style-navlink"
+                  smooth
+                  to="#galleryhouse"
+                >
+                  Gallery House
+                </NavDropdown.Item>
 
                 {/**Git-clothes */}
-                {/* <LinkContainer to="/gitclothes"> */}
-                  <NavDropdown.Item
-                    eventKey="1.2"
-                    title="Item"
-                    id="nav-dropdown-item"
-                    activeClassName="active-link"
-                    as={NavHashLink}
-                    className="style-navlink"
-                    smooth 
-                    to="#gitclothes"
-                  >
-                    Git-clothes
-                  </NavDropdown.Item>
-                {/* </LinkContainer> */}
+                <NavDropdown.Item
+                  eventKey="1.2"
+                  title="Item"
+                  id="nav-dropdown-item"
+                  activeClassName="active-link"
+                  as={NavHashLink}
+                  className="style-navlink"
+                  smooth
+                  to="#gitclothes"
+                >
+                  Git-clothes
+                </NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Item>
@@ -71,16 +72,17 @@ const MyNavDropdown = () => {
 
               {/**Contact me */}
               <Nav.Item>
-                  <Nav.Link 
-                  eventKey="3" 
+                <Nav.Link
+                  eventKey="3"
                   id="nav-item"
                   activeClassName="active-link"
                   as={NavHashLink}
                   className="style-navlink"
-                  smooth 
-                  to="#contact">
-                    Get in touch
-                  </Nav.Link>
+                  smooth
+                  to="#contact"
+                >
+                  Get in touch
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
