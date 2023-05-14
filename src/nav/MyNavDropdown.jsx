@@ -37,26 +37,20 @@ const MyNavDropdown = () => {
                 </LinkContainer>
 
                 {/**Git-clothes */}
-                <LinkContainer to="/gitclothes">
+                {/* <LinkContainer to="/gitclothes"> */}
                   <NavDropdown.Item
                     eventKey="1.2"
                     title="Item"
                     id="nav-dropdown-item"
+                    activeClassName="active-link"
+                    as={NavHashLink}
+                    className="style-navlink"
+                    smooth 
+                    to="#gitclothes"
                   >
                     Git-clothes
                   </NavDropdown.Item>
-                </LinkContainer>
-
-                {/**My GitHub */}
-                {/* <NavDropdown.Item
-              eventKey="1.3"
-              // onClick={() => alert(`Redirecting you to GitHub. Okay?`)}
-              href="https://github.com/grace-sanford"
-              target="_blank"
-              id="nav-dropdown-item"
-            >
-              My GitHub
-            </NavDropdown.Item> */}
+                {/* </LinkContainer> */}
               </NavDropdown>
 
               <Nav.Item>
@@ -77,7 +71,6 @@ const MyNavDropdown = () => {
 
               {/**Contact me */}
               <Nav.Item>
-                {/* <LinkContainer to="/links"> */}
                   <Nav.Link 
                   eventKey="3" 
                   id="nav-item"
@@ -88,7 +81,6 @@ const MyNavDropdown = () => {
                   to="#contact">
                     Get in touch
                   </Nav.Link>
-                {/* </LinkContainer> */}
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

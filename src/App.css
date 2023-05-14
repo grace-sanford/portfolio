@@ -103,6 +103,7 @@
 .section {
   margin-top: 25rem;
   margin-bottom: 25rem;
+  align-self: center;
 }
 
 .sectionLinks {
