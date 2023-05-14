@@ -3,10 +3,11 @@ import Container from "react-bootstrap/Container";
 
 const AboutMe = () => {
   return (
-    // <div className="App">
       <div className="section" id="about">
         <Container>
+          <hr/>
           <div className="text">
+            <h3>About Me</h3>
             <p>
               Grace Sanford brings analytic, inclusive, and creative thinking to
               software development. Grace recieved her training in the Grace
@@ -38,7 +39,6 @@ const AboutMe = () => {
           </div>
         </Container>
       </div>
-    // </div>
   );
 };
 

@@ -77,11 +77,18 @@ const MyNavDropdown = () => {
 
               {/**Contact me */}
               <Nav.Item>
-                <LinkContainer to="/links">
-                  <Nav.Link eventKey="3" id="nav-item">
+                {/* <LinkContainer to="/links"> */}
+                  <Nav.Link 
+                  eventKey="3" 
+                  id="nav-item"
+                  activeClassName="active-link"
+                  as={NavHashLink}
+                  className="style-navlink"
+                  smooth 
+                  to="#contact">
                     Get in touch
                   </Nav.Link>
-                </LinkContainer>
+                {/* </LinkContainer> */}
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
@@ -89,7 +96,9 @@ const MyNavDropdown = () => {
       </Navbar>
 
       <GalleryHouse />
+      <GitClothes />
       <AboutMe />
+      <Links />
     </div>
   );
 };

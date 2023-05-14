@@ -94,7 +94,25 @@
   align-self: center;
   /* margin: 2.25rem 2rem 2rem 2rem;
   max-width: 35rem; */
+  margin-top: 5rem;
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  margin-top: 25rem;
+  margin-bottom: 25rem;
+}
+
+.sectionLinks {
+  margin-top: 20rem;
+  margin-bottom: 40rem;
+}
+
+h3 {
+  align-self: center;
+  /* font-weight: bolder; */
 }
 
 .alert {
