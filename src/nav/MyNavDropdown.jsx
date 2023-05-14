@@ -45,8 +45,6 @@ const MyNavDropdown = () => {
                   eventKey="1.2"
                   title="Git clothes"
                   id="nav-dropdown-item"
-
-                  className="dropdown-item"
                   // activeClassName="active-link"
                   as={NavHashLink}
                   // className="style-navlink"

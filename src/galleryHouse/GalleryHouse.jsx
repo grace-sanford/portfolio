@@ -24,6 +24,7 @@ const GalleryHouse = () => {
             />
             <img src="./gallery-house.png" alt="" />
           </picture>
+         
           <p>
             Gallery House is{" "}
             <span className="pink">
@@ -66,6 +67,7 @@ const GalleryHouse = () => {
             </a>{" "}
             and below.
           </p>
+          </div>
           <div className="videoWrapper">
             <iframe
               className="vid"
@@ -77,7 +79,6 @@ const GalleryHouse = () => {
             ></iframe>
           </div>
           <AlertDismissible className="alert" />
-        </div>
       </Container>
     </div>
   );
