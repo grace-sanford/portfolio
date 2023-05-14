@@ -10,25 +10,30 @@ import Links from "../links/Links";
 
 import Container from "react-bootstrap/Container";
 import { NavHashLink } from "react-router-hash-link";
+import { useState } from "react";
 
 const MyNavDropdown = () => {
+  const [active, setActive] = useState("default");
   return (
     <div className="App">
-      <Navbar className="nav" expand="sm" bg="light">
+      <Navbar className="nav" expand="sm" bg="blue">
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="nav" fill variant="pills" activeKey={null}>
-              <NavDropdown title="Software Projects" id="nav-dropdown">
+            <Nav
+              className="nav"
+              activeKey={active}
+              onSelect={(selectedKey) => setActive(selectedKey)}
+            >
+              <NavDropdown title="Software Projects" id="nav-dropdown" activeKey={active}>
                 {/**Gallery House */}
                 <NavDropdown.Item
-                  style={{ width: "5rem" }}
-                  eventKey="1.1"
-                  title="Item"
+                  eventKey="default"
+                  title="Gallery House"
                   id="nav-dropdown-item"
                   // activeClassName="active-link"
                   as={NavHashLink}
-                  className="style-navlink"
+                  // className="style-navlink"
                   smooth
                   to="#galleryhouse"
                 >
@@ -38,11 +43,13 @@ const MyNavDropdown = () => {
                 {/**Git-clothes */}
                 <NavDropdown.Item
                   eventKey="1.2"
-                  title="Item"
+                  title="Git clothes"
                   id="nav-dropdown-item"
+
+                  className="dropdown-item"
                   // activeClassName="active-link"
                   as={NavHashLink}
-                  className="style-navlink"
+                  // className="style-navlink"
                   smooth
                   to="#gitclothes"
                 >
@@ -54,9 +61,9 @@ const MyNavDropdown = () => {
                 {/**About */}
                 <Nav.Link
                   eventKey="2"
-                  title="Item"
+                  title="About me"
                   id="nav-item"
-                  // activeClassName="active-link" // <-- define active classname
+                  activeClassName="active-link" // <-- define active classname
                   as={NavHashLink} // <-- render NavHashLink component
                   className="style-navlink"
                   smooth // <-- smooth scrolling
@@ -70,8 +77,9 @@ const MyNavDropdown = () => {
               <Nav.Item>
                 <Nav.Link
                   eventKey="3"
+                  title="Get in touch"
                   id="nav-item"
-                  // activeClassName="active-link"
+                  activeClassName="active-link"
                   as={NavHashLink}
                   className="style-navlink"
                   smooth
@@ -84,7 +92,7 @@ const MyNavDropdown = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      
+
       <GalleryHouse />
       <GitClothes />
       <AboutMe />

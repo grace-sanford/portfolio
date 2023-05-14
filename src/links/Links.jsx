@@ -22,7 +22,8 @@ const Links = () => {
             The links below point to external resources. Materials not linked
             here can be found on <span className="lightblue">GitHub</span>.
           </p>
-          <ListGroup>
+          </div>
+          <ListGroup className="list-group">
             <ListGroup.Item
               variant="primary"
               action
@@ -59,7 +60,7 @@ const Links = () => {
               Email
             </ListGroup.Item>
           </ListGroup>
-        </div>
+   
       </Container>
     </div>
   );
