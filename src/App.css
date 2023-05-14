@@ -45,10 +45,7 @@
 }
 /* ---------------------------end Colors---------------------------- */
 
-.nav {
-  margin-top: 3rem;
-  align-self: center;
-}
+/* ---------------------------Embeded---------------------------- */
 
 .gallery-house-img {
   padding: 1rem;
@@ -61,7 +58,7 @@
 }
 
 .git-clothes-img {
-  margin-top: 0;
+  max-width: 35rem;
   width: 375px;
   position: relative;
   margin-left: auto;
@@ -71,7 +68,7 @@
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 25px;
+  margin-top: 4rem;
   padding-right: 0;
   height: 0;
 }
@@ -84,6 +81,14 @@
   height: 100%;
 }
 
+/* ---------------------------end Embeded------------------------- */
+
+
+.nav {
+  margin-top: 3rem;
+  align-self: center;
+}
+
 #nav-dropdown,
 #nav-dropdown-item,
 #nav-item {
@@ -91,29 +96,30 @@
 }
 
 .text {
-  align-self: center;
-  /* margin: 2.25rem 2rem 2rem 2rem;
-  max-width: 35rem; */
+  align-items: center;
   margin-top: 5rem;
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
 }
 
+.sectionGH {
+  margin-top: 10rem;
+  margin-bottom: 25rem;
+}
+
 .section {
   margin-top: 25rem;
   margin-bottom: 25rem;
-  align-self: center;
 }
 
 .sectionLinks {
   margin-top: 20rem;
-  margin-bottom: 40rem;
+  margin-bottom: 38rem;
 }
 
 h3 {
   align-self: center;
-  /* font-weight: bolder; */
 }
 
 .alert {
@@ -122,24 +128,4 @@ h3 {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }

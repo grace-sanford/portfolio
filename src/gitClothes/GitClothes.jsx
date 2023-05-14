@@ -38,18 +38,17 @@ const GitClothes = () => {
             </a>
             .
           </p>
+          {/**Responsive images with `picture` element. Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images */}
+          <img
+            className="git-clothes-img"
+            src="./git-clothes-screenshot.jpg"
+            alt=""
+          ></img>
+          <picture>
+            <source media="(max-width: 799px)" srcset="git-clothes-sm.jpg" />
+            <source media="(min-width: 800px)" srcset="git-clothes-bg.jpg" />
+          </picture>
         </div>
-        {/**Responsive images with `picture` element. Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images */}
-        <picture>
-          <source media="(max-width: 799px)" srcset="git-clothes-sm.jpg" />
-          <source media="(min-width: 800px)" srcset="git-clothes-bg.jpg" />
-          <img src="./git-clothes-screenshot.jpg" alt="" />
-        </picture>
-        <img
-          className="git-clothes-img"
-          src="./git-clothes-screenshot.jpg"
-          alt=""
-        ></img>
       </Container>
     </div>
   );

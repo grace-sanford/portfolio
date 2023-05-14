@@ -2,16 +2,13 @@ import "../App.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { LinkContainer } from "react-router-bootstrap";
 
 import GalleryHouse from "../galleryHouse/GalleryHouse";
 import GitClothes from "../gitClothes/GitClothes";
 import AboutMe from "../aboutMe/AboutMe";
 import Links from "../links/Links";
 
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import { NavHashLink } from "react-router-hash-link";
 
 const MyNavDropdown = () => {
@@ -19,7 +16,6 @@ const MyNavDropdown = () => {
     <div className="App">
       <Navbar className="nav" expand="sm" bg="light">
         <Container fluid>
-          <Navbar.Brand href="#">Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="nav" fill variant="pills" activeKey={null}>
@@ -30,7 +26,7 @@ const MyNavDropdown = () => {
                   eventKey="1.1"
                   title="Item"
                   id="nav-dropdown-item"
-                  activeClassName="active-link"
+                  // activeClassName="active-link"
                   as={NavHashLink}
                   className="style-navlink"
                   smooth
@@ -44,7 +40,7 @@ const MyNavDropdown = () => {
                   eventKey="1.2"
                   title="Item"
                   id="nav-dropdown-item"
-                  activeClassName="active-link"
+                  // activeClassName="active-link"
                   as={NavHashLink}
                   className="style-navlink"
                   smooth
@@ -60,7 +56,7 @@ const MyNavDropdown = () => {
                   eventKey="2"
                   title="Item"
                   id="nav-item"
-                  activeClassName="active-link" // <-- define active classname
+                  // activeClassName="active-link" // <-- define active classname
                   as={NavHashLink} // <-- render NavHashLink component
                   className="style-navlink"
                   smooth // <-- smooth scrolling
@@ -75,7 +71,7 @@ const MyNavDropdown = () => {
                 <Nav.Link
                   eventKey="3"
                   id="nav-item"
-                  activeClassName="active-link"
+                  // activeClassName="active-link"
                   as={NavHashLink}
                   className="style-navlink"
                   smooth
@@ -88,7 +84,7 @@ const MyNavDropdown = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      
       <GalleryHouse />
       <GitClothes />
       <AboutMe />

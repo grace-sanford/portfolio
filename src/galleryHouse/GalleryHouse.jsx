@@ -4,32 +4,30 @@ import Container from "react-bootstrap/Container";
 
 const GalleryHouse = () => {
   return (
-    <div className="section" id="galleryhouse">
+    <div className="sectionGH" id="galleryhouse">
       <Container>
         <hr />
         <div className="text">
-        <img
-          className="gallery-house-img"
-          src="./gallery-house.png"
-          alt=""
-        ></img>
-        <picture>
-          <source
-            media="(max-width: 799px)"
-            srcset="gallery-house-img-sm.jpg"
-          />
-          <source
-            media="(min-width: 800px)"
-            srcset="gallery-house-img-bg.jpg"
-          />
-          <img src="./gallery-house.png" alt="" />
-        </picture>
-
-        <div className="text">
+          <img
+            className="gallery-house-img"
+            src="./gallery-house.png"
+            alt=""
+          ></img>
+          <picture>
+            <source
+              media="(max-width: 799px)"
+              srcset="gallery-house-img-sm.jpg"
+            />
+            <source
+              media="(min-width: 800px)"
+              srcset="gallery-house-img-bg.jpg"
+            />
+            <img src="./gallery-house.png" alt="" />
+          </picture>
           <p>
             Gallery House is{" "}
             <span className="pink">
-              an eye-catching full stack gallery wall application
+              an eye-catching gallery wall application
             </span>{" "}
             that makes curating the art on your wall not just easy, but fun!
           </p>
@@ -68,18 +66,17 @@ const GalleryHouse = () => {
             </a>{" "}
             and below.
           </p>
-        </div>
-        <div className="videoWrapper">
-          <iframe
-            className="vid"
-            src="https://www.youtube.com/embed/B_2WXO_AKPU"
-            title="Embedded youtube"
-            width="375px"
-            height="300px"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <AlertDismissible className="alert" />
+          <div className="videoWrapper">
+            <iframe
+              className="vid"
+              src="https://www.youtube.com/embed/B_2WXO_AKPU"
+              title="Embedded youtube"
+              width="375px"
+              height="300px"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <AlertDismissible className="alert" />
         </div>
       </Container>
     </div>
