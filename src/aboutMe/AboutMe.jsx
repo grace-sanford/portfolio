@@ -6,7 +6,7 @@ const AboutMe = () => {
       <div className="section" id="about">
         <Container>
           <div className="text">
-            <h3>About Me</h3>
+            {/* <h3>About Me</h3> */}
             <p>
               Grace Sanford brings analytic, inclusive, and creative thinking to
               software development. Grace recieved her training in the Grace

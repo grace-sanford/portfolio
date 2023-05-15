@@ -6,7 +6,7 @@ const GitClothes = () => {
     <div className="section" id="gitclothes">
       <Container>
         <div className="text">
-          <h3>Git Clothes</h3>
+          {/* <h3>Git Clothes</h3> */}
           <p>
             Git Clothes is{" "}
             <span className="turquoise">

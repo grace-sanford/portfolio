@@ -12,7 +12,7 @@ const Links = () => {
     <div className="sectionLinks" id="contact">
       <Container>
         <div className="text">
-        <h3>Get In Touch</h3>
+        {/* <h3>Get In Touch</h3> */}
           <p>
             Feel free to send me an <span className="pink">email</span> with job
             opportunties or interest in collaboration.

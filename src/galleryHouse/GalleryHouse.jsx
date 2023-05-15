@@ -27,9 +27,8 @@ const GalleryHouse = () => {
           <p>
             Gallery House is{" "}
             <span className="pink">
-              an eye-catching gallery wall application
-            </span>{" "}
-            that makes curating the art on your wall not just easy, but fun!
+              an eye-catching full stack gallery wall application
+            </span>.
           </p>
           <p>
             Our <span className="yellowgreen">project repository</span>,
