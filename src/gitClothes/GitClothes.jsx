@@ -5,7 +5,6 @@ const GitClothes = () => {
   return (
     <div className="section" id="gitclothes">
       <Container>
-        <hr />
         <div className="text">
           <h3>Git Clothes</h3>
           <p>

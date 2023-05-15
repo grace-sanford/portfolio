@@ -6,7 +6,6 @@ const GalleryHouse = () => {
   return (
     <div className="sectionGH" id="galleryhouse">
       <Container>
-        <hr />
         <div className="text">
           <img
             className="gallery-house-img"

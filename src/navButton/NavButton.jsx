@@ -19,6 +19,7 @@ const NavButton = ({ clicked, setClicked }) => {
   `}
       </style>
       <div className="App">
+        <Home clicked={clicked} setClicked={setClicked} />
         <Button
           className="homepage-btn"
           variant="flat"
@@ -30,7 +31,6 @@ const NavButton = ({ clicked, setClicked }) => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9AxhxlZhyxlUC9Uw6MEE97d642ROWXu28Hadm_5t&s"
           ></img>
         </Button>
-        <Home clicked={clicked} setClicked={setClicked} />
       </div>
     </>
   );

@@ -11,7 +11,6 @@ const Links = () => {
   return (
     <div className="sectionLinks" id="contact">
       <Container>
-        <hr />
         <div className="text">
         <h3>Get In Touch</h3>
           <p>
