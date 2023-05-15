@@ -61,7 +61,7 @@ const GalleryHouse = () => {
               href="https://www.youtube.com/watch?v=B_2WXO_AKPU&list=PLx0iOsdUOUmm3RLOnoRpUArwuuVa5_u9r&index=4
 "
             >
-              Youtube
+              YouTube
             </a>{" "}
             and below.
           </p>
