@@ -22,7 +22,7 @@ const GitClothes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              GitHub
             </a>
             .
           </p>

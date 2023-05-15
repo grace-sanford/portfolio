@@ -38,7 +38,7 @@ const GalleryHouse = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              GitHub
             </a>
             .
           </p>
