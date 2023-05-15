@@ -11,7 +11,7 @@
   align-self: center;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 50px;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 
@@ -59,7 +59,7 @@
 
 .git-clothes-img {
   max-width: 35rem;
-  width: 25rem;
+  width: 375px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -93,13 +93,14 @@
   flex-direction: row;
   position: fixed;
   margin-top: 0px;
+  background-color: white;
 }
 
 #nav-dropdown,
 #nav-dropdown-item,
 #nav-item {
   font-size: 1.5rem;
-  background-color: rgb(248, 246, 246);
+  background-color: white;
   color: rgb(39, 34, 34);
 }
 
@@ -118,12 +119,11 @@
 
 .section {
   margin-top: 25rem;
-  margin-bottom: 25rem;
 }
 
 .sectionLinks {
   margin-top: 20rem;
-  margin-bottom: 38rem;
+  margin-bottom: 20rem;
 }
 
 h3 {
