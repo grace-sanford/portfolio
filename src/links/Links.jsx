@@ -14,12 +14,12 @@ const Links = () => {
         <div className="text">
         {/* <h3>Get In Touch</h3> */}
           <p>
-            Feel free to send me an <span className="pink">email</span> with job
+            Feel free to send me an email with job
             opportunties or interest in collaboration.
           </p>
           <p>
             The links below point to external resources. Materials not linked
-            here can be found on <span className="lightblue">GitHub</span>.
+            here can be found on GitHub.
           </p>
           </div>
           <ListGroup className="list-group">
