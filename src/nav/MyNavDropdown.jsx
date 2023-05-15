@@ -11,13 +11,14 @@ import Links from "../links/Links";
 import Container from "react-bootstrap/Container";
 import { NavHashLink } from "react-router-hash-link";
 import { useState } from "react";
+import { Button } from "react-bootstrap";
 
-const MyNavDropdown = () => {
+const MyNavDropdown = ({clicked, setClicked}) => {
   const [active, setActive] = useState("default");
   return (
     <div className="App">
       <div className="navContainer">
-        <Navbar className="nav" expand="sm" bg="light">
+        <Navbar className="nav" expand="lg" bg="blue">
           <Container fluid>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
@@ -26,7 +27,7 @@ const MyNavDropdown = () => {
                 activeKey={active}
                 onSelect={(selectedKey) => setActive(selectedKey)}
               >
-                <NavDropdown title="Software Projects" id="nav-dropdown">
+                <NavDropdown className="nav-dropdown" title="Software Projects" id="nav-dropdown">
                   {/**Gallery House */}
                   <NavDropdown.Item
                     eventKey="default"
@@ -52,7 +53,7 @@ const MyNavDropdown = () => {
                     smooth
                     to="#gitclothes"
                   >
-                    Git-clothes
+                    Git clothes
                   </NavDropdown.Item>
                 </NavDropdown>
 
@@ -92,6 +93,17 @@ const MyNavDropdown = () => {
           </Container>
         </Navbar>
       </div>
+      {/* <Button
+          className="homepage-btn"
+          variant="flat"
+          size="xxl"
+          onClick={() => setClicked(!clicked)}
+        >
+          <img
+            alt=""
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9AxhxlZhyxlUC9Uw6MEE97d642ROWXu28Hadm_5t&s"
+          ></img>
+        </Button> */}
 
       <GalleryHouse />
       <GitClothes />

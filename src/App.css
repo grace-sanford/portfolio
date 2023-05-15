@@ -88,19 +88,21 @@
 /* ---------------------------end Embeded------------------------- */
 
 .navContainer {
-  align-self: center;
+  /* align-self: center; */
   display: flex;
   flex-direction: row;
   position: fixed;
   margin-top: 0px;
-  background-color: white;
+}
+.nav {
+  background-color: lightblue;
 }
 
 #nav-dropdown,
 #nav-dropdown-item,
 #nav-item {
   font-size: 1.5rem;
-  background-color: white;
+  background-color: lightblue;
   color: rgb(39, 34, 34);
 }
 
@@ -118,7 +120,7 @@
 }
 
 .section {
-  margin-top: 25rem;
+  margin-top: 26rem;
 }
 
 .sectionLinks {

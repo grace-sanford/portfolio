@@ -29,7 +29,7 @@ function Home({ clicked, setClicked }) {
             </h2>
           </>
         ) : (
-          <MyNavDropdown />
+          <MyNavDropdown clicked={clicked} setClicked={setClicked}/>
         )}
       </div>
     </>

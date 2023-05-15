@@ -8,7 +8,7 @@ const GitClothes = () => {
         <div className="text">
           <h3>Git Clothes</h3>
           <p>
-            Git-clothes is{" "}
+            Git Clothes is{" "}
             <span className="turquoise">
               a full stack mock e-commerce application
             </span>
