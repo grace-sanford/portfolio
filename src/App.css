@@ -49,7 +49,7 @@
 
 .gallery-house-img {
   padding: 1rem;
-  margin-top: 3rem;
+  margin-top: 0rem;
   max-width: 35rem;
   width: 375px;
   position: relative;
@@ -115,7 +115,7 @@
 }
 
 .sectionGH {
-  margin-top: 10rem;
+  margin-top: 1.1rem;
   margin-bottom: 25rem;
 }
 
