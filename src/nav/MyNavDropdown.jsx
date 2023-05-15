@@ -16,7 +16,7 @@ const MyNavDropdown = () => {
   const [active, setActive] = useState("default");
   return (
     <div className="App">
-      <Navbar className="nav" expand="sm" bg="blue">
+      <Navbar className="nav" expand="sm" bg="light">
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -25,15 +25,18 @@ const MyNavDropdown = () => {
               activeKey={active}
               onSelect={(selectedKey) => setActive(selectedKey)}
             >
-              <NavDropdown title="Software Projects" id="nav-dropdown" activeKey={active}>
+              <NavDropdown 
+              title="Software Projects" 
+              id="nav-dropdown"
+              >
                 {/**Gallery House */}
                 <NavDropdown.Item
                   eventKey="default"
                   title="Gallery House"
                   id="nav-dropdown-item"
-                  // activeClassName="active-link"
+                  activeClassName="active-link"
                   as={NavHashLink}
-                  // className="style-navlink"
+                  className="style-navlink"
                   smooth
                   to="#galleryhouse"
                 >
@@ -45,9 +48,9 @@ const MyNavDropdown = () => {
                   eventKey="1.2"
                   title="Git clothes"
                   id="nav-dropdown-item"
-                  // activeClassName="active-link"
+                  activeClassName="active-link"
                   as={NavHashLink}
-                  // className="style-navlink"
+                  className="style-navlink"
                   smooth
                   to="#gitclothes"
                 >

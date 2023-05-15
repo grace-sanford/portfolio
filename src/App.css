@@ -97,6 +97,8 @@
 #nav-dropdown-item,
 #nav-item {
   font-size: 1.5rem;
+  background-color: whitesmoke;
+  color: rgb(39, 34, 34);
 }
 
 .text {
