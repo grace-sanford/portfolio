@@ -14,7 +14,7 @@ const NavButton = ({ clicked, setClicked }) => {
   }
   
   .btn-xxl {
-    padding: 3rem .4rem 0rem .4rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
   `}
       </style>

@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavButton clicked={clicked} setClicked={setClicked} />
-      <AppRoutes clicked={clicked}/>
+      <AppRoutes clicked={clicked} />
     </>
   );
 }
