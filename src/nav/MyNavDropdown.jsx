@@ -53,7 +53,7 @@ const MyNavDropdown = ({clicked, setClicked}) => {
                     smooth
                     to="#gitclothes"
                   >
-                    Git clothes
+                    Git Clothes
                   </NavDropdown.Item>
                 </NavDropdown>
 
