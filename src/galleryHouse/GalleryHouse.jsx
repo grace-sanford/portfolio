@@ -43,18 +43,6 @@ const GalleryHouse = () => {
             .
           </p>
           <p>
-            Our latest <span className="lightpurple">deployed site</span> can be
-            found{" "}
-            <a
-              href="https://gallery-house.onrender.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              here
-            </a>
-            .
-          </p>
-          <p>
             A <span className="gold">video walk-through</span> of our
             application can be found on{" "}
             <a

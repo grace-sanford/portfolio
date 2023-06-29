@@ -26,17 +26,6 @@ const GitClothes = () => {
             </a>
             .
           </p>
-          <p>
-            Our latest <span className="cyan">deployed site</span> can be found{" "}
-            <a
-              href="https://git-clothes.onrender.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              here
-            </a>
-            .
-          </p>
 
           {/**Responsive images with `picture` element. Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images */}
           <img
