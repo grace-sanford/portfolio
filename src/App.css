@@ -2,17 +2,16 @@
   display: flex;
   flex-direction: column;
 }
-
+/* 
 .homepage-btn {
   align-self: center;
 }
-
+*/
 .homepage-header {
   align-self: center;
-  font-family: "Helvetica Neue", sans-serif;
   font-size: 50px;
   margin-top: 8rem;
-}
+} 
 
 
 /* ---------------------------Colors---------------------------- */
@@ -46,7 +45,7 @@
 /* ---------------------------end Colors---------------------------- */
 
 /* ---------------------------Embeded---------------------------- */
-
+/* 
 .gallery-house-img {
   padding: 1rem;
   margin-top: 0rem;
@@ -83,12 +82,12 @@
 
 .list-group {
   margin-top: 5rem;
-}
+} */
 
 /* ---------------------------end Embeded------------------------- */
 
-.navContainer {
-  /* align-self: center; */
+/* .navContainer {
+  align-self: center;
   display: flex;
   flex-direction: row;
   position: fixed;
@@ -143,4 +142,4 @@ h3 {
   color: #000;
   font-weight: bold;
   text-decoration: underline;
-}
+} */

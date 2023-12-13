@@ -9,27 +9,18 @@ function Home({ clicked, setClicked }) {
         {!clicked ? (
           <>
             <h2 className="homepage-header">
-              <span className="lightpurple">
-                Hi, <br />
-              </span>
-              <span className="turquoise">
-                I'm Grace,
-                <br />
-              </span>
-              <span className="cyan">
-                Full Stack <br />
-              </span>
+              <span className="lightpurple">Hi</span>, <br />
+              I'm <span className="turquoise">Grace</span>
+              <br />
               <span className="cyan">
                 Software <br />
               </span>
-              <span className="cyan">
-                Developer, <br />
-              </span>
-              <span className="pink">and Poet</span>
+              <span className="cyan">Developer</span> <br />
+              and <span className="pink">Poet</span>
             </h2>
           </>
         ) : (
-          <MyNavDropdown clicked={clicked} setClicked={setClicked}/>
+          <MyNavDropdown clicked={clicked} setClicked={setClicked} />
         )}
       </div>
     </>
