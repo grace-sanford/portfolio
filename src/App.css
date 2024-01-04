@@ -45,7 +45,7 @@
 /* ---------------------------end Colors---------------------------- */
 
 /* ---------------------------Embeded---------------------------- */
-.gallery-house-img {
+.gallery-house-img, .clutter-img {
   padding: 1rem;
   margin-top: 0rem;
   max-width: 35rem;
