@@ -27,10 +27,12 @@ const AboutMe = () => {
             building <span className="pink">technology that helps people</span>.
             Grace has experience in fast-paced, client-facing roles, as a
             Marketing Strategist for a gut-health podcast, an Assistant
-            Publicist for business and non-fiction authors, and most recently a
-            reservationist for an upscale bar and restaurant, where she designed
-            and implemented a single system for tracking 1000+ clients accross 3
-            platforms and 4 businesses. Grace holds a B.A. in{" "}
+            Publicist for business and non-fiction authors, and a reservationist
+            for an upscale bar and restaurant, where she designed and
+            implemented a single system for tracking 1000+ clients accross 3
+            platforms and 4 businesses. Most recently, Grace served as a Support
+            Engineer at a startup, conducting business at the intersection of
+            mental health insurance and fintech. Grace holds a B.A. in{" "}
             <span className="gold">Sociology</span>, with a cerficate in{" "}
             <span className="gold">Social, Cultural, and Critical Theory</span>{" "}
             from Wesleyan University. Grace lives in New York City.

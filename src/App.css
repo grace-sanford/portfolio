@@ -45,7 +45,6 @@
 /* ---------------------------end Colors---------------------------- */
 
 /* ---------------------------Embeded---------------------------- */
-/* 
 .gallery-house-img {
   padding: 1rem;
   margin-top: 0rem;
@@ -56,15 +55,7 @@
   margin-right: auto;
 }
 
-.git-clothes-img {
-  max-width: 35rem;
-  width: 375px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.videoWrapper {
+/* .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   margin-top: 4rem;
@@ -78,6 +69,15 @@
   left: 0;
   width: 100%;
   height: 100%;
+} */
+
+/* 
+.git-clothes-img {
+  max-width: 35rem;
+  width: 375px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list-group {
@@ -86,13 +86,39 @@
 
 /* ---------------------------end Embeded------------------------- */
 
-/* .navContainer {
+.navContainer {
   align-self: center;
   display: flex;
   flex-direction: row;
   position: fixed;
   margin-top: 0px;
+  background-color: white;
+  border-radius: 25px;
 }
+
+.sectionGH {
+  margin-top: 2.5rem;
+}
+
+
+
+
+/* 
+.custom-navbar .navbar-toggler {
+  width: 50px;
+}
+
+@media (max-width: 767px) {
+  .custom-navbar .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+
+  .custom-navbar .navbar-nav {
+    margin: 0 auto;
+  }
+}
+
 .nav {
   background-color: lightblue;
 }
@@ -103,18 +129,14 @@
   font-size: 1.5rem;
   background-color: lightblue;
   color: rgb(39, 34, 34);
-}
+} */
 
 .text {
   align-items: center;
   margin-top: 14rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
-}
-
-.sectionGH {
-  margin-top: 1.1rem;
 }
 
 .section {
@@ -142,4 +164,4 @@ h3 {
   color: #000;
   font-weight: bold;
   text-decoration: underline;
-} */
+}

@@ -9,7 +9,7 @@ function Home({ clicked, setClicked }) {
         {!clicked ? (
           <>
             <h2 className="homepage-header">
-              <span className="lightpurple">Hi</span>, <br />
+              <span >Hi</span>, <br />
               I'm <span className="turquoise">Grace</span>
               <br />
               <span className="cyan">

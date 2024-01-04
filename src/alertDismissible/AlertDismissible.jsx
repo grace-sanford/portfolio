@@ -19,7 +19,7 @@ function AlertDismissible() {
         </Button>
       )}
       <Alert show={show} key="success" variant="success" bsPrefix="alert">
-        <p>
+        {/* <p>
           Check out my article documenting my team's process to select and use a
           third-party API,{" "}
           <b>
@@ -34,7 +34,7 @@ function AlertDismissible() {
             ,"
           </b>{" "}
           recently published on Medium.
-        </p>
+        </p> */}
         <div>
           <Button variant="success" size="sm" onClick={() => setShow(false)}>
             Hide Alert

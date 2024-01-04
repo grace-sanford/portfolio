@@ -10,19 +10,38 @@ import Container from "react-bootstrap/Container";
 const Links = () => {
   return (
     <div className="sectionLinks" id="contact">
-      <Container>
+      <Container className="d-flex justify-content-center">
         <div className="text">
-        {/* <h3>Get In Touch</h3> */}
+          {/* <h3>Get In Touch</h3> */}
           <p>
-            Feel free to send me an <span className="pink">email</span> with job
-            opportunties or interest in collaboration.
+            Feel free to send me an email with job opportunties or interest in{" "}
+            <span className="pink">collaboration</span>. Links below point
+            to external resources. Projects and materials not found on this site
+            can be found on <span className="lightblue">GitHub</span>.
           </p>
           <p>
-            The links below point to external resources. Materials not linked
-            here can be found on <span className="lightblue">GitHub</span>.
+            {/* The links below point to external resources. Materials not linked
+            here can be found on <span className="lightblue">GitHub</span>. */}
           </p>
-          </div>
-          <ListGroup className="list-group">
+          <ListGroup className="list-group col-md-5 mt-5">
+            <ListGroup.Item
+              action
+              variant="info"
+              href="mailto:gracesanford@protonmail.com"
+              target="_blank"
+            >
+              <AiOutlineMail /> Email
+            </ListGroup.Item>
+
+            <ListGroup.Item
+              action
+              variant="dark"
+              href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:82dbf55f-be0b-33c1-b9fa-cb93b1c625e0"
+              target="_blank"
+            >
+              <GrDocumentDownload /> Technical Resume
+            </ListGroup.Item>
+
             <ListGroup.Item
               variant="primary"
               action
@@ -31,35 +50,17 @@ const Links = () => {
             >
               <FaLinkedin /> LinkedIn
             </ListGroup.Item>
-            <ListGroup.Item
-              action
-              variant="dark"
-              href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:82dbf55f-be0b-33c1-b9fa-cb93b1c625e0"
-              target="_blank"
-            >
-              <GrDocumentDownload />
-              Technical Resume
-            </ListGroup.Item>
+
             <ListGroup.Item
               action
               variant="success"
               href="https://github.com/grace-sanford"
               target="_blank"
             >
-              <AiFillGithub />
-              GitHub
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              variant="info"
-              href="mailto:gracesanford@protonmail.com"
-              target="_blank"
-            >
-              <AiOutlineMail />
-              Email
+              <AiFillGithub /> GitHub
             </ListGroup.Item>
           </ListGroup>
-   
+        </div>
       </Container>
     </div>
   );
