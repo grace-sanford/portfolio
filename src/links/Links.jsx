@@ -36,7 +36,7 @@ const Links = () => {
             <ListGroup.Item
               action
               variant="dark"
-              href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:82dbf55f-be0b-33c1-b9fa-cb93b1c625e0"
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:5588c1e9-e2ba-4f01-8980-0e7985303a66"
               target="_blank"
             >
               <GrDocumentDownload /> Technical Resume
