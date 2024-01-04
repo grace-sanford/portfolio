@@ -4,13 +4,13 @@ import { Container } from "react-bootstrap";
 const Clutter = () => {
   return (
     <div className="text" id="clutter">
-      <Container>
+      <img className="clutter-img" src="clutter.png" alt="" />
+      <picture>
+        <source media="(max-width: 799px)" srcSet="clutter-img-sm.jpg" />
+        <source media="(min-width: 800px)" srcSet="clutter-img-bg.jpg" />
         <img className="clutter-img" src="clutter.png" alt="" />
-        <picture>
-          <source media="(max-width: 799px)" srcSet="clutter-img-sm.jpg" />
-          <source media="(min-width: 800px)" srcSet="clutter-img-bg.jpg" />
-          <img className="clutter-img" src="clutter.png" alt="" />
-        </picture>
+      </picture>
+      <Container>
         <p>
           CLUTTER is a{" "}
           <span className="lightblue">party game from my childhood</span>. Get
