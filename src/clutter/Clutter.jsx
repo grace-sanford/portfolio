@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Clutter = () => {
   return (
     <div className="text" id="clutter">
-      <h2 className="bold text-red">CLUTTER</h2>
+      <h2 className="bold mt-2 text-red">CLUTTER</h2>
       <img className="clutter-img" src="clutter.png" alt="" />
       <picture>
         <source media="(max-width: 799px)" srcSet="clutter-img-sm.jpg" />
