@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8c97f495.css",
-    "main.js": "/portfolio/static/js/main.8e21c3da.js",
+    "main.js": "/portfolio/static/js/main.f235a5ea.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/NeueMontreal-Bold.otf": "/portfolio/static/media/NeueMontreal-Bold.0836656dccdad13f5c96.otf",
     "static/media/NeueMontreal-Medium.otf": "/portfolio/static/media/NeueMontreal-Medium.15b1070b8dac57958acf.otf",
@@ -9,11 +9,11 @@
     "static/media/NeueMontreal-Regular.otf": "/portfolio/static/media/NeueMontreal-Regular.140bfb4a71fe08805d92.otf",
     "index.html": "/portfolio/index.html",
     "main.8c97f495.css.map": "/portfolio/static/css/main.8c97f495.css.map",
-    "main.8e21c3da.js.map": "/portfolio/static/js/main.8e21c3da.js.map",
+    "main.f235a5ea.js.map": "/portfolio/static/js/main.f235a5ea.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c97f495.css",
-    "static/js/main.8e21c3da.js"
+    "static/js/main.f235a5ea.js"
   ]
 }
