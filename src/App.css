@@ -139,6 +139,10 @@
   flex-direction: column;
 }
 
+.text-red {
+  color: rgb(252 165 165);
+}
+
 #clutter {
   margin-bottom: 10rem;
 }
