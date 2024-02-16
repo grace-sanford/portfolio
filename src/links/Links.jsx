@@ -15,9 +15,10 @@ const Links = () => {
           {/* <h3>Get In Touch</h3> */}
           <p>
             Feel free to send me an email with job opportunties or interest in{" "}
-            <span className="pink">collaboration</span>. Links below point
-            to external resources. Projects and materials not found on this site
+            <span className="pink">collaboration</span>. Links below point to
+            external resources. Projects and materials not found on this site
             can be found on <span className="lightblue">GitHub</span>.
+          </p>
           <p>
             {/* The links below point to external resources. Materials not linked
             here can be found on <span className="lightblue">GitHub</span>. */}
@@ -59,7 +60,6 @@ const Links = () => {
               <AiFillGithub /> GitHub
             </ListGroup.Item>
           </ListGroup>
-          </p>
         </div>
       </Container>
     </div>
