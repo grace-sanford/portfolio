@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 
 const Clutter = () => {
   return (
+    <Container>
     <div className="text" id="clutter">
       <h2 className="bold mt-3 text-red">CLUTTER</h2>
       <img className="clutter-img" src="clutter.png" alt="" />
@@ -11,7 +12,6 @@ const Clutter = () => {
         <source media="(min-width: 800px)" srcSet="clutter-img-bg.jpg" />
         <img className="clutter-img" src="clutter.png" alt="" />
       </picture>
-      <Container>
       {/* <h2 className="bold mt-5 mb-5 text-red-400">CLUTTER</h2>
       <img className="clutter-img" src="clutter.png" alt="" />
       <picture>
@@ -50,8 +50,8 @@ const Clutter = () => {
           </a>
           .
         </p>
+        </div>
       </Container>
-    </div>
   );
 };
 
