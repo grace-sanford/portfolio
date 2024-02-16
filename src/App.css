@@ -94,6 +94,7 @@
   margin-top: 0px;
   background-color: white;
   border-radius: 25px;
+  z-index: 1;
 }
 
 .sectionGH {
